@@ -1,0 +1,11 @@
+2026-07-12T08:14:22Z auth sshd[421]: Failed password for root from 192.168.1.15 port 4022
+2026-07-12T08:15:01Z firewall: DROP src=203.0.113.45 dst=10.0.0.7 proto=TCP spt=51330 dpt=443
+2026-07-12T08:16:44Z proxy: GET hxxp://malware-c2[.]evil-domain[.]com/beacon?id=7 blocked
+2026-07-12T08:17:10Z dns: query cdn.legit-service.com resolved to 93.184.216.34
+2026-07-12T08:18:33Z mail: phishing sender attacker[at]bad-actor[.]net quarantined
+2026-07-12T08:19:02Z edr: dropped file invoice.exe sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2026-07-12T08:19:03Z edr: parent hashes md5=d41d8cd98f00b204e9800998ecf8427e sha1=da39a3ee5e6b4b0d3255bfef95601890afd80709
+2026-07-12T08:20:15Z app: agent version 1.2.3 started (three-part version, not an IP)
+2026-07-12T08:20:16Z pkg: rejected build tag 10.20.30.40.50 (five octets, not an IP)
+2026-07-12T08:21:00Z ipv6: inbound session from 2001:db8::1 on wan0
+2026-07-12T08:22:30Z url: exfil attempt to https://evil.example.org/upload?token=42 detected
